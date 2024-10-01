@@ -1,0 +1,161 @@
+/* src/components/RegisterPage.css */
+
+/* Reset default margins and paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Set the background image and style */
+  .registration-page {
+    position: relative;
+    width: 100%;
+    min-height: 100vh; /* Full viewport height */
+    background-image: url('../assets/background.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .background-overlay {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust opacity as needed */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Header styles */
+  .header {
+    width: 100%;
+    padding: 20px 40px; /* Adjust padding as needed */
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 80px; /* Adjust as needed */
+    height: auto;
+  }
+  
+  /* Company name container */
+  .company-name-container {
+    width: 100%;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    margin-top: 20px;
+  }
+  
+  .company-name {
+    font-size: 48px; /* Adjust font size */
+    font-weight: bold;
+    color: #fff; /* White text */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    margin: 0; /* Remove default margins */
+  }
+  
+  /* Registration container */
+  .registration-container {
+    flex: 1;
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  
+  /* Style the registration form */
+  .registration-form {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 10px;
+    width: 100%;
+  }
+  
+  .registration-form h2 {
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .form-group textarea {
+    resize: vertical;
+  }
+  
+  .registration-form button {
+    width: 100%;
+    padding: 12px;
+    font-size: 18px;
+    background-color: #0069d9;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .registration-form button:hover {
+    background-color: #28a745;
+  }
+  
+  /* Error message styles */
+  .error {
+    color: red;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .company-name {
+      font-size: 36px;
+    }
+  
+    .logo {
+      width: 60px;
+    }
+  
+    .registration-form {
+      padding: 20px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .company-name {
+      font-size: 28px;
+    }
+  
+    .registration-form {
+      padding: 15px;
+    }
+  }
+  

@@ -1,0 +1,59 @@
+/* frontend/src/styles.css */
+
+/* General Styles */
+body {
+    background-color: #f0f8ff;
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  /* Centering the forms */
+  .login-page, .register-page, .dashboard, .contact-page {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+  }
+  
+  /* Headings */
+  h2 {
+    text-align: center;
+    color: #0044cc;
+  }
+  
+  /* Forms */
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  input {
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: #0044cc;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #003399;
+  }
+  
+  /* Links */
+  a {
+    color: #0044cc;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  

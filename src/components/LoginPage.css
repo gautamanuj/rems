@@ -1,0 +1,165 @@
+/* Reset default margins and paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Set the background image and style */
+.login-page {
+    position: relative;
+    width: 100%;
+    min-height: 100vh; /* Full viewport height */
+    background-image: url('../assets/background.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Overlay to dim the background image if needed */
+  .background-overlay {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust opacity as needed */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Header styles */
+.header {
+    width: 100%;
+    padding: 20px 40px; /* Adjust padding as needed */
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 80px; /* Adjust as needed */
+    height: auto;
+    margin-right: 10px; /* Space between logo and company name */
+  }
+  
+  .company-name {
+    font-size: 36px; /* Adjust font size */
+    font-weight: bold;
+    color: #fff; /* White text */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    text-align: left; /* Align text to the left */
+  }
+  
+  
+  
+  /* Style the login form */
+  .login-form {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 10px;
+  }
+  
+  .login-form h2 {
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .login-form button {
+    width: 100%;
+    padding: 12px;
+    font-size: 18px;
+    background-color: #0069d9;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .login-form button:hover {
+    background-color: #28a745;
+  }
+  
+  /* Error message styles */
+  .error {
+    color: red;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .company-name {
+      font-size: 36px;
+    }
+  
+    .logo {
+      width: 60px;
+    }
+  
+    .login-form {
+      padding: 20px;
+    }
+  }
+  
+  /* Register Container */
+  .register-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+
+/* Register Box with Background */
+.register-box {
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+/* Style for the message text */
+.register-box p {
+  margin-bottom: 15px;
+  color: #000; /* Black text */
+  font-size: 18px;
+}
+
+  
+.register-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #0069d9;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+  
+.register-button:hover {
+  background-color: #28a745;
+}
+  

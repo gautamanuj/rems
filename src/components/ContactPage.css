@@ -1,0 +1,87 @@
+/* frontend/src/components/ContactPage.css */
+
+.contact-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+
+.contact-details {
+    margin-top: 40px;
+    width: 100%;
+    max-width: 600px;
+    background-color: #ffffff; /* White background for contact details */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+.contact-details h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #007bff; /* Bootstrap primary color */
+  }
+  
+.contact-details p {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #555;
+  }
+  
+.contact-details a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+.contact-details a:hover {
+    text-decoration: underline;
+  }
+  
+.error-message {
+    color: red;
+    font-size: 18px;
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+.loading {
+    font-size: 18px;
+    color: #555;
+    margin-top: 20px;
+  }
+.logo-container {
+    position: absolute;
+    left: 20px; /* Adjust as needed */
+  }
+  
+.logo {
+    width: 50px; /* Adjust size as needed */
+    height: auto;
+  }
+  
+ 
+  
+.company-name {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  
+.edit-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #ffc107; /* Bootstrap warning color */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+.edit-button:hover {
+    background-color: #e0a800; /* Darker warning color on hover */
+  }
+  
